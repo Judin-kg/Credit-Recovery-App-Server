@@ -3,6 +3,10 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 const connectDB = require("./config/db");
 
+
+// 🔥 IMPORT AUTO REMINDER
+require("./services/autoReminder");
+
 dotenv.config();
 connectDB();
 
